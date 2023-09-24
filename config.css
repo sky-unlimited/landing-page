@@ -1,0 +1,10 @@
+/* We define variables here */
+:root {
+  --color-blue: #00A6ED;
+  --color-blue-hover: #0095d5;
+  --color-light: #F0F0F0;
+  --color-gray: #85878B;
+  --color-dark: #262626;
+  --color-white: #FFF;
+  --border-radius: 30px;
+}

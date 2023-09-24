@@ -1,0 +1,172 @@
+/* Reset some default styles for ul and li */
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Set the default font to Arial */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    height: 48px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo */
+.logo img {
+  max-height: 48px; /* Set the maximum height of the logo to 48px */
+}
+
+/* Style the navigation bar */
+nav ul {
+    display: flex;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav a {
+    text-decoration: none;
+    color: var(--color-light);
+}
+
+/* Style the links on hover */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style the main content sections */
+main {
+}
+section {
+}
+section h2 {
+  text-align: center;
+}
+
+/* style the home section */
+.section__home {
+  padding: 20px;
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/shot-by-joe-hBv9rtoeR9Q-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content h2 {
+  font-size: 24px;
+  margin-bottom: 100px;
+}
+.photo-credit {
+  font-size: 0.75em;
+  margin-top: 40px;
+}
+
+/* style the about section */
+.section__about {
+  padding: 20px;
+  background-color: var(--color-white);
+}
+.about-container {
+  display: flex;
+  flex-direction: row;
+}
+.about-container__card {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* style the services section */
+.section__services {
+  padding: 20px;
+  background-color: var(--color-light);
+}
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+}
+.services-container img {
+  margin: 0 auto;
+  //height: 300px; /* Set a height for the container, adjust as needed */
+  border-radius: 7px;
+}
+
+/* style the contact section */
+.section__contact {
+  padding: 20px;
+  background-color: var(--color-gray);
+}
+
+/* Style the footer */
+footer {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    text-align: center;
+    padding: 20px;
+}
+footer p {
+  margin: 0px;
+}
+footer .logo {
+  width: 48px;
+  margin-top: 1em;
+}
+.contact-info a {
+  text-decoration: none;
+  color: var(--color-light); /* Set the color to match the header links */
+}
+.linkedin-link a {
+  color: var(--color-light);
+  text-decoration: none;
+}
+.photo-credit a {
+  color: var(--color-light);
+  text-decoration: none;
+}
+.provider-credit p,a {
+  color: var(--color-gray);
+  text-decoration: none;
+}
+
+/* Style the links on hover */
+.contact-info a:hover,
+.linkedin-link a:hover,
+.photo-credit a:hover,
+.provider-credit a:hover{
+    text-decoration: underline;
+}
+
+/* Hide the navigation bar on screens narrower than 576px */
+@media only screen and (max-width: 575px) {
+  nav {
+    display: none;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+}
