@@ -11,6 +11,15 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
 }
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 1.75em;
+}
 
 /* Style the header */
 header {
@@ -70,12 +79,12 @@ section h2 {
   color: #fff;
 }
 .hero-content h1 {
-  font-size: 36px;
+  //font-size: 36px;
   margin-bottom: 20px;
 }
 
 .hero-content h2 {
-  font-size: 24px;
+  //font-size: 24px;
   margin-bottom: 100px;
 }
 .photo-credit {
@@ -111,8 +120,6 @@ section h2 {
   align-items: center; /* Center vertically */
 }
 .services-container img {
-  margin: 0 auto;
-  //height: 300px; /* Set a height for the container, adjust as needed */
   border-radius: 7px;
 }
 
@@ -168,5 +175,14 @@ footer .logo {
   }
   .about-container {
     flex-direction: column;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.75em;
   }
 }
