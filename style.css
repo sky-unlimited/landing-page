@@ -110,7 +110,7 @@ section h2 {
 
 /* style the services section */
 .section__services {
-  padding: 20px;
+  //padding: 20px;
   background-color: var(--color-light);
 }
 .services-container {
@@ -167,6 +167,11 @@ footer .logo {
 .provider-credit a:hover{
     text-decoration: underline;
 }
+/* Screenshot placeholder */
+.container { 
+  width: 100%;
+  margin: 0 auto; 
+}
 
 /* Hide the navigation bar on screens narrower than 576px */
 @media only screen and (max-width: 575px) {
@@ -184,5 +189,8 @@ footer .logo {
   }
   h3 {
     font-size: 1.75em;
+  }
+  .container {
+    max-width: 390px;
   }
 }
