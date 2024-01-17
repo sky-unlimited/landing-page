@@ -120,12 +120,16 @@ section h2 {
   align-items: center; /* Center vertically */
 }
 .services-container img {
+  border-radius: 7px;
+}
+.container img {
   margin-top: 20px;
   border-radius: 7px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  max-width: 720px;
 }
 
 /* style the contact section */
