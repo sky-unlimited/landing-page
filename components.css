@@ -55,3 +55,13 @@
 .w-100 {
   width: 100%;
 }
+.mt-10 {
+  margin-top: 10px;
+}
+.bt-10 {
+  margin-bottom: 10px;
+}
+.box-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Adjust these values as needed */
+  border-radius: 15px;
+}
